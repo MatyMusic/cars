@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classic Cars</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,700&family=Jost:wght@100;200;300;400;500;600&family=Monoton&family=Nunito:wght@200;300;400;500;600;700;800&family=Orbitron:wght@400;500;600&family=Poppins:wght@100;200&family=Roboto+Slab:wght@500&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- menu -->
+
+    <div class="menu target center">
+      <div class="menu-line menu-line-1"></div>
+      <div class="menu-line menu-line-2"></div>
+    </div>
+
+    <!-- end menu -->
+
+    <!-- navbar -->
+
+    <nav class="navbar target">
+      <a href="#home" class="navbar-link">בית</a>
+      <a href="#popular-cars" class="navbar-link">מכוניות פופלריות</a
+      ><a href="#video-gallery" class="navbar-link">גלריית וידאו</a>
+      <a href="#image-gallery" class="navbar-link">גלריית תמונות</a
+      ><a href="#contact" class="navbar-link">צור קשר</a>
+    </nav>
+
+    <!-- end navbar -->
+
+    <!-- section 1 -->
+
+    <div class="wrapper">
+      <section class="section-1 target center" id="home">
+        <h1 class="section-heading section-1-heading">מכוניות קלאסיות</h1>
+        <img src="inages/car1.png" class="section-1-img" alt="" />
+      </section>
+    </div>
+
+    <!-- end section 1 -->
+    <!-- section 2 -->
+
+    <div class="wrapper">
+      <section class="section-2 target" id="popular-cars">
+        <h1 class="section-heading">מכוניות פופלריות</h1>
+        <div class="cards-wrapper center">
+          <!--  -->
+          <div class="card">
+            <h2 class="car-name">car-name</h2>
+            <img src="inages/pop1.webp" class="card-img" alt="" />
+            <h3 class="car-price">$ 200,000</h3>
+            <button type="button" class="card-btn">מידע נוסף</button>
+          </div>
+          <!--  -->
+          <div class="card">
+            <h2 class="car-name">car-name</h2>
+            <img src="inages/pop2.webp" class="card-img" alt="" />
+            <h3 class="car-price">$ 100,000</h3>
+            <button type="button" class="card-btn">מידע נוסף</button>
+          </div>
+          <!--  -->
+          <div class="card">
+            <h2 class="car-name">car-name</h2>
+            <img src="inages/pop4.webp" class="card-img" alt="" />
+            <h3 class="car-price">$ 150,000</h3>
+            <button type="button" class="card-btn">מידע נוסף</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- end section 2-->
+    <!-- section 3 -->
+
+    <div class="wrapper">
+      <section class="section-3 target" id="video-gallery">
+        <h1 class="section-heading">גלריית וידאו</h1>
+        <!--  -->
+        <div class="videos-wrapper center">
+          <video src="inages/video1.mp4" muted loop class="video"></video>
+          <video src="inages/video2.mp4" muted loop class="video"></video>
+          <video src="inages/video3.mp4" muted loop class="video"></video>
+        </div>
+        <!--  -->
+        <div class="videos-wrapper center">
+          <video src="inages/video4.mp4" muted loop class="video"></video>
+          <video src="inages/video5.mp4" muted loop class="video"></video>
+          <video src="inages/video6.mp4" muted loop class="video"></video>
+        </div>
+      </section>
+    </div>
+
+    <!-- end section 3 -->
+    <!-- section 4-->
+
+    <div class="wrapper">
+      <section class="section-4 target" id="image-gallery">
+        <h1 class="section-heading">גלריית תמונות</h1>
+        <!--  -->
+        <div class="gallery center">
+          <div class="gallery-shelf"></div>
+          <img src="inages/car1.png" class="gallery-img-1" alt="" />
+          <img src="inages/car1.png" class="gallery-img-2" alt="" />
+          <img src="inages/car1.png" class="gallery-img-3" alt="" />
+        </div>
+        <!--  -->
+        <div class="gallery center">
+          <div class="gallery-shelf"></div>
+          <img src="inages/pop2.webp" class="gallery-img-1" alt="" />
+          <img src="inages/pop4.webp" class="gallery-img-2" alt="" />
+          <img src="inages/pop4.webp" class="gallery-img-3" alt="" />
+        </div>
+      </section>
+    </div>
+
+    <!-- end section 4 -->
+    <!-- section 5-->
+
+    <div class="wrapper">
+      <section class="section-5 target" id="contact">
+        <h1 class="section-heading">צור קשר</h1>
+        <form class="contact-form">
+          <input
+            type="text"
+            class="form-input"
+            placeholder="הקלד את שמך המלא"
+          />
+          <input
+            type="email"
+            class="form-input"
+            placeholder="הקלד את האימייל"
+          />
+          <textarea class="form-input" placeholder="ההודעה שלך"></textarea>
+          <input class="form-btn" type="submit" value="שלח" />
+        </form>
+        <p class="copyright">כל הזכויות שמורות &copy; Maty-dev-2022</p>
+      </section>
+    </div>
+
+    <!-- end section 5 -->
+    <script src="script.js"></script>
+  </body>
+</html>
